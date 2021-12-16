@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+
+body {
+  background-color: #25535a !important;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  min-width: 100%;
+  min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ .row-one { /* Refer back to center "fixed positioned" content. */
+  top: 50%;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.welcome-header {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 5vw;
+  font-size: 5vmax;
+	color: white;
+	text-align: center;
+}
+
+.text-field[type="text"] {
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5vw;
+  font-size: 2.5vmax;
+  color: white;
+  text-align: center;
+  border-color: transparent;
+  background: transparent;
+}
+
+.text-field[type="text"]:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder { font-style: italic; }
+::-moz-placeholder { font-style: italic; }
+::-ms-input-placeholder { font-style: italic; }
+
+.social-button {
+  font-family: 'Yantramanav', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.buttonTweet, .buttonTweet:link, .buttonTweet:hover, 
+.buttonTweet:visited, .buttonTweet:active {
+  text-decoration: none;
+  color: white;
+}
+
+
